@@ -1,4 +1,4 @@
-# Welcome to my GitHub Profile
+# Welcome to my GitHub profile
 I'm a computer science student at the University of Trento.
 
 [![GitHub Starts](https://img.shields.io/github/stars/nicolatoscan?color=181717&logo=github&style=for-the-badge)](https://github.com/nicolatoscan)
@@ -26,7 +26,7 @@ I'm a computer science student at the University of Trento.
 
 
 ## Projects I'm working on now:
-* Exoress Restfull API - [rememo-api](https://github.com/nicolatoscan/rememo-api)
+* Express Restfull API - [rememo-api](https://github.com/nicolatoscan/rememo-api)
 * Electric car telemetry - [eagletrt-telemetria-sender](https://github.com/eagletrt/eagletrt-telemetria-sender)
 * Analysis of Wikipedia conversations - [WikiCommunityHealth](https://github.com/orgs/WikiCommunityHealth/dashboard)
 * [find out more ...](https://github.com/nicolatoscan?tab=repositories)
