@@ -1,3 +1,5 @@
+<div align="center">
+
 # Welcome to my GitHub profile
 I'm a computer science student at the University of Trento.
 
@@ -26,10 +28,12 @@ I'm a computer science student at the University of Trento.
 
 
 ## Projects I'm working on now:
-* Express Restfull API - [rememo-api](https://github.com/nicolatoscan/rememo-api)
-* Electric car telemetry - [eagletrt-telemetria-sender](https://github.com/eagletrt/eagletrt-telemetria-sender)
-* Analysis of Wikipedia conversations - [WikiCommunityHealth](https://github.com/orgs/WikiCommunityHealth/dashboard)
-* [find out more ...](https://github.com/nicolatoscan?tab=repositories)
+Express Restfull API - [rememo-api](https://github.com/nicolatoscan/rememo-api)<br>
+Electric car telemetry - [eagletrt-telemetria-sender](https://github.com/eagletrt/eagletrt-telemetria-sender)<br>
+Analysis of Wikipedia conversations - [WikiCommunityHealth](https://github.com/orgs/WikiCommunityHealth/dashboard)<br>
+[find out more ...](https://github.com/nicolatoscan?tab=repositories)
 
 ## Now Playing
 [![Spotify](https://spotify-now-playing-jtlkwba7f.vercel.app/api/spotify)](https://open.spotify.com/user/toscan99)
+
+</div>
