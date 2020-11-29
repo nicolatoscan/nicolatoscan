@@ -1,5 +1,5 @@
 # Welcome to my GitHub profile
-I'm a computer science student at the University of Trento.
+I'm a computer science student at University of Trento.
 
 [![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fnicolatoscan.dev%2F)](https://nicolatoscan.dev/)
 [![GitHub Starts](https://img.shields.io/github/stars/nicolatoscan?label=github&color=181717&logo=github&style=for-the-badge)](https://github.com/nicolatoscan)
