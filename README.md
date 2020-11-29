@@ -2,7 +2,7 @@
 I'm a computer science student at the University of Trento.
 
 [![GitHub Starts](https://img.shields.io/github/stars/nicolatoscan?color=181717&logo=github&style=for-the-badge)](https://github.com/nicolatoscan)
-[![Linkedin](https://img.shields.io/badge/linked-in-369?style=for-the-badge&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/andrew-novac)
+[![Linkedin](https://img.shields.io/badge/linked-in-369?style=for-the-badge&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/nicolatoscan/)
 ![Twitter Follow](https://img.shields.io/twitter/follow/nicola_toscan?color=1DA1F2&label=%40nicola_toscan&logo=twitter&style=for-the-badge)
 
 ## Languages I know
