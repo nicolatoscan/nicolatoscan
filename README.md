@@ -1,5 +1,3 @@
-<div align="center">
-
 # Welcome to my GitHub profile
 I'm a computer science student at the University of Trento.
 
@@ -35,5 +33,3 @@ Analysis of Wikipedia conversations - [WikiCommunityHealth](https://github.com/o
 
 ## Now Playing
 [![Spotify](https://spotify-now-playing-jtlkwba7f.vercel.app/api/spotify)](https://open.spotify.com/user/toscan99)
-
-</div>
