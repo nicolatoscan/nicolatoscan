@@ -72,9 +72,16 @@
                 description: "Developing a telemetry software using C for an electric formula SAE car, designed and build by the Eagle Trento racing team since September 2020."
             },
             {
-                img: "/images/camera.jpg",
-                title: "Photos & Video Editing",
-                description: "Filmed and edited short videos and photos for local public initiative like calendars, local festival posters and short videos for some of my city events. Edited using Adobe Photoshop, Adobe Premiere Pro and Adobe After Effects."
+                img: "/images/webapp.jpg",
+                title: "Web Apps as management software",
+                description: "Developed the following two management software applications as web apps using Vue, Node.js, MongoDB and SQL databases:<br />" +
+                    "Web app to manage the accomodation offered by the University of Trento through Opera.<br />" +
+                    "Web app to manage the books catalogued by the library of Bolzano through librilib(e)ri."
+            },
+            {
+                img: "/images/fal.jpg",
+                title: "Company websites",
+                description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
             },
         ],
     };

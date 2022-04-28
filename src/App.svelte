@@ -74,10 +74,11 @@
     top: 1em;
     right: 1em;
     cursor: pointer;
+    user-select: none;
   }
   .main {
     width: 100%;
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
     display: inline-block;
   }
 

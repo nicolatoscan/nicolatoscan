@@ -2,10 +2,13 @@
 <div class="skills">
     
     <h4>Programming Languages:</h4>
-    <p> Typescirpt, Javascript, Python, C#, C++, C, bash, Kotlin, Java </p>
-    
+    <p> Typescript, Javascript, Python, C#, C++, C, bash, Kotlin, Java </p>
+
     <h4>Frontend frameworks:</h4>
     <p> Vue, Svelte, React, Angular </p>
+
+    <h4>Databases:</h4>
+    <p> Postgres, MongoDB </p>
 
     <h4>Backend frameworks:</h4>
     <p> Express, Nest.js </p>

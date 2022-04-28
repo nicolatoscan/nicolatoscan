@@ -2,10 +2,8 @@
 <div class="my-info">
     <p><span class="info-name">Name:</span>Nicola Toscan</p>
     <p><span class="info-name">From:</span>Italy</p>
-    <p><span class="info-name">Email:</span>test@nicolatoscan.it</p>
     <p><span class="info-name">Age:</span>{ age }</p>
     <p><span class="info-name">Now in:</span>Stockholm</p>
-    <p><span class="info-name">Qualcos:</span>altro</p>
 </div>
 <div class="about">
     <div class="picture"></div>
@@ -36,10 +34,12 @@
 
 <style lang="less">
     .my-info {
+        width: fit-content;
+        margin: auto;
         display: grid;
-        grid-template-columns: auto auto auto;
+        column-gap: 3em;
+        grid-template-columns: 1fr 1fr;
         padding: 1.5em .5em;
-        @media only screen and (max-width: 1050px) { grid-template-columns: 1fr 1fr; }
         @media only screen and (max-width: 750px) { grid-template-columns: 1fr; }
     }
     .about {

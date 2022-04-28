@@ -45,7 +45,7 @@
             list-style: none;
             padding: 0;
             li {
-                margin: 0.8em 0;
+                margin: 0.5em 0;
             }
         }
     }
