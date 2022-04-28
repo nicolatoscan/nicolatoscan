@@ -14,15 +14,21 @@
 </script>
 
 <style>
+  :root {
+    --theme: #ed9074;
+  }
+
   :global(body) {
     margin: 0;
     padding: 0;
     font-family: monospace;
   }
   :global(h3) {
+    padding: 0 1em;
+    margin-left: 2em;
     font-size: 1.7em;
     display: inline;
-    box-shadow: inset 0 -6px 0px #96ed74;
+    box-shadow: inset 0 -8px 0px var(--theme);
   }
 
   .main {

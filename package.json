@@ -28,6 +28,7 @@
   "dependencies": {
     "@types/node": "^17.0.25",
     "less": "^4.1.2",
+    "mdi-svelte": "^1.1.2",
     "sirv-cli": "^2.0.0",
     "svelte-material-icons": "^2.0.2"
   }
