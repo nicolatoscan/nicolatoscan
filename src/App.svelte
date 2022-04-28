@@ -1,9 +1,8 @@
 <div class="main">
   <Header />
 
-  <div id="about-me" class="section">
-    <AboutMe />
-  </div>
+  <div id="about-me" class="section"> <AboutMe /> </div>
+  <div id="about-me" class="section"> <Education /> </div>
 
 
 </div>
@@ -11,11 +10,13 @@
 <script lang="ts">
   import Header from "./components/Header.svelte";
   import AboutMe from "./components/AboutMe.svelte";
+  import Education from "./components/Education.svelte";
 </script>
 
 <style>
   :root {
     --theme: #ed9074;
+    --theme-2: #ffad6b;
   }
 
   :global(body) {
@@ -24,11 +25,15 @@
     font-family: monospace;
   }
   :global(h3) {
-    padding: 0 1em;
-    margin-left: 2em;
-    font-size: 1.7em;
-    display: inline;
-    box-shadow: inset 0 -8px 0px var(--theme);
+    padding: 2px 2em;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    box-shadow: inset 0 -8px 0px var(--theme-2);
+    text-transform: uppercase;
+    margin-bottom: 1em;
   }
 
   .main {
@@ -40,7 +45,7 @@
   .section {
     width: 100%;
     max-width: 960px;
-    margin: 5em auto;
+    margin: 7em auto 4em;
   }
 
 

@@ -30,9 +30,7 @@
     import Email from "svelte-material-icons/Email.svelte";
     import Telegram from "svelte-material-icons/Telegram.svelte";
 
-    const age = Math.floor(
-        (new Date().getTime() - new Date(1999, 0, 31).getTime()) / 3.15576e+10
-    )
+    const age = Math.floor( (new Date().getTime() - new Date(1999, 0, 31).getTime()) / 3.15576e+10 );
 </script>
 
 
@@ -65,8 +63,10 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 1em 0;
+        margin: 1em auto;
+        padding: 0 3em;
         border-top: 1px solid var(--theme);
+        width: fit-content;
 
         a {
             padding: .5em 1em;
