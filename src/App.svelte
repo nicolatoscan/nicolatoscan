@@ -6,6 +6,7 @@
   <div id="about-me" class="section"> <Boxes type='Experience' /> </div>
   <div id="about-me" class="section"> <Boxes type='Projects' /> </div>
   <div id="about-me" class="section"> <Skills /> </div>
+  <div id="about-me" class="section"> <Else /> </div>
 
 
 </div>
@@ -15,6 +16,7 @@
   import AboutMe from "./components/AboutMe.svelte";
   import Boxes from "./components/Boxes.svelte";
   import Skills from "./components/Skills.svelte";
+  import Else from "./components/Else.svelte";
 </script>
 
 <style>
@@ -42,7 +44,7 @@
 
   .main {
     width: 100%;
-    margin-bottom: 100vh;
+    margin-bottom: 10vh;
     display: inline-block;
   }
 
