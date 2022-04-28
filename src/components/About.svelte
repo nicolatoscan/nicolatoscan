@@ -47,6 +47,11 @@
         grid-template-columns: 1fr auto;
         align-items: center;
         justify-content: center;
+        @media screen and (max-width: 800px) {
+            grid-template-columns: auto;
+            align-items: center;
+            justify-items: center;
+        }
         .picture {
             width: 120px;
             height: 120px;

@@ -101,6 +101,21 @@
         column-gap: 3em;
         border-bottom: 1px solid var(--theme);
 
+        @media screen and (max-width: 800px) {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            column-gap: 0;
+            padding: 1em;
+
+            .box-img {
+                grid-row: auto !important;
+                grid-column: auto !important;
+                img {
+                    margin-bottom: 1em;
+                }
+            }
+        }
+
         &:last-child {
             border-bottom: none;
         }

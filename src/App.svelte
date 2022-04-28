@@ -1,7 +1,7 @@
 <div class="main">
   <Header />
 
-  <div id="about-me" class="section"> <AboutMe /> </div>
+  <div id="about-me" class="section"> <About /> </div>
   <div id="about-me" class="section"> <Boxes type='Education' /> </div>
   <div id="about-me" class="section"> <Boxes type='Experience' /> </div>
   <div id="about-me" class="section"> <Boxes type='Projects' /> </div>
@@ -13,7 +13,7 @@
 
 <script lang="ts">
   import Header from "./components/Header.svelte";
-  import AboutMe from "./components/AboutMe.svelte";
+  import About from "./components/About.svelte";
   import Boxes from "./components/Boxes.svelte";
   import Skills from "./components/Skills.svelte";
   import Else from "./components/Else.svelte";
@@ -54,7 +54,7 @@
   }
 
   .section {
-    width: 100%;
+    width: 95%;
     max-width: 960px;
     margin: 7em auto 4em;
   }
