@@ -1,0 +1,106 @@
+<h3>{type}</h3>
+<div class="boxes">
+    {#each boxes as b}
+    <div class="{b.flipped ? 'box flipped' : 'box'}">
+        <div class="box-img">
+            <img src="{ b.img }" alt="">
+        </div>
+        <div class="box-title">
+            <h4>{ b.title }</h4>
+            <h5>{ b.subtitle }</h5>
+        </div>
+        <div class="box-description">
+            <p>{ b.description }</p>
+        </div>
+    </div>
+    {/each}
+</div>
+
+<script lang="ts">
+    export let type: string;
+
+    type Box = {
+        img: string,
+        title: string,
+        subtitle: string,
+        description: string,
+        flipped?: boolean
+    };
+
+    const infos: { [id: string]: Box[] } = {
+        Education: [
+            {
+                img: "https://picsum.photos/350/350",
+                title: "Attending Master in Data Science",
+                subtitle: "KTH, Stockholm, Sweden | August 2021 - current",
+                description: "I graduated from the University of Illinois at Urbana-Champaign with a Bachelor of Science in Computer Science. I have taken courses in Software Engineering, Data Structures, Algorithms, and Object-Oriented Programming. I have also taken courses in Database Systems, Operating Systems, and Computer Architecture."
+            },
+            {
+                img: "https://picsum.photos/250/250",
+                title: "Bachelor in Computer Science",
+                subtitle: "University of Trento, Italy | September 2018 - July 2022",
+                description: "I graduated from the University of Illinois at Urbana-Champaign with a Bachelor of Science in Computer Science. I have taken courses in Software Engineering, Data Structures, Algorithms, and Object-Oriented Programming. I have also taken courses in Database Systems, Operating Systems, and Computer Architecture."
+            },
+        ],
+        Experience: [
+            {
+                flipped: true,
+                img: "https://picsum.photos/200/200",
+                title: "Data science Internship",
+                subtitle: "Eurecat, Barcelona, Spain | Jenuary - June 2021",
+                description: "Analyzing emotions in messages written and received by a user in Wikipedia talk pages over time using Python."
+            },
+            {
+                flipped: true,
+                img: "https://picsum.photos/300/300",
+                title: "Web developer internship",
+                subtitle: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017",
+                description: "Continuous development of multiple restful web apps and APIs used by the company itself or their clients. Developed with Angular, .NET Framework, ASP-NET MVC and Azure authentication services with TypeScript, JavaScript and C#."
+            },
+        ]
+    };
+
+    const boxes = infos?.[type] ?? [];
+
+</script>
+
+
+<style lang="less">
+    h4 {
+        font-size: 1.2em;
+        margin: 3px 0;
+    }
+    h5 {
+        font-size: 1em;
+        margin: 3px 0;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        padding: 1em 3em;
+        column-gap: 3em;
+        border-bottom: 1px solid var(--theme);
+
+        &:last-child {
+            border-bottom: none;
+        }
+        
+        .box-img {
+            align-self: center;
+            justify-self: center;
+            grid-row: 1 / 3;
+            img {
+                border-radius: 25%;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        
+        &.flipped {
+            .box-img {
+                grid-column: 2 / 3;
+            }
+        }
+    }
+</style>

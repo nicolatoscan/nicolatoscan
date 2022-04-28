@@ -2,7 +2,8 @@
   <Header />
 
   <div id="about-me" class="section"> <AboutMe /> </div>
-  <div id="about-me" class="section"> <Education /> </div>
+  <div id="about-me" class="section"> <Boxes type='Education' /> </div>
+  <div id="about-me" class="section"> <Boxes type='Experience' /> </div>
 
 
 </div>
@@ -10,7 +11,7 @@
 <script lang="ts">
   import Header from "./components/Header.svelte";
   import AboutMe from "./components/AboutMe.svelte";
-  import Education from "./components/Education.svelte";
+  import Boxes from "./components/Boxes.svelte";
 </script>
 
 <style>
