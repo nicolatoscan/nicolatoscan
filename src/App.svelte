@@ -1,5 +1,11 @@
-<div class="main">
+<div class="{darkTheme ? 'main dark' : 'box'}">
   <Header />
+
+  <div class="theme-switch" on:click={changeTheme}>
+    { #if darkTheme }<WeatherSunny color='#ed9074' size='32' />{/if}
+    { #if !darkTheme }<WeatherNight color='#ed9074' size='32' />{/if}
+  </div>
+
 
   <div id="about-me" class="section"> <About /> </div>
   <div id="about-me" class="section"> <Boxes type='Education' /> </div>
@@ -7,6 +13,7 @@
   <div id="about-me" class="section"> <Boxes type='Projects' /> </div>
   <div id="about-me" class="section"> <Skills /> </div>
   <div id="about-me" class="section"> <Else /> </div>
+
 
 
 </div>
@@ -17,13 +24,28 @@
   import Boxes from "./components/Boxes.svelte";
   import Skills from "./components/Skills.svelte";
   import Else from "./components/Else.svelte";
+
+  import WeatherNight from "svelte-material-icons/WeatherNight.svelte";
+  import WeatherSunny from "svelte-material-icons/WeatherSunny.svelte";
+
+  let darkTheme = localStorage.getItem("darkTheme") === "true";
+  function changeTheme() {
+    darkTheme = !darkTheme;
+    localStorage.setItem("darkTheme", darkTheme ? "true" : "false");
+  }
+
 </script>
 
 <style>
+
+  .dark {
+    color: white;
+    background-color: #212121;
+  }
+
   :root {
     --theme: #ed9074;
     --theme-2: #ffad6b;
-
   }
 
   :global(::selection) {
@@ -47,6 +69,12 @@
     margin-bottom: 1em;
   }
 
+  .theme-switch {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+  }
   .main {
     width: 100%;
     margin-bottom: 10vh;

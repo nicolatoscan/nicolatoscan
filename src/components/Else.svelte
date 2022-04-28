@@ -43,6 +43,7 @@
 
         ul {
             list-style: none;
+            padding: 0;
             li {
                 margin: 0.8em 0;
             }
