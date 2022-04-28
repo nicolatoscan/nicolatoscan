@@ -1,4 +1,4 @@
-<h3>{type}</h3>
+<h3>{ titles[type] }</h3>
 <div class="boxes">
     {#each boxes as b}
     <div class="{b.flipped ? 'box flipped' : 'box'}">
@@ -7,10 +7,10 @@
         </div>
         <div class="box-title">
             <h4>{ b.title }</h4>
-            <h5>{ b.subtitle }</h5>
+            { #if b.subtitle } <h5>{ b.subtitle }</h5> { /if }
         </div>
         <div class="box-description">
-            <p>{ b.description }</p>
+            <p>{@html b.description }</p>
         </div>
     </div>
     {/each}
@@ -22,9 +22,15 @@
     type Box = {
         img: string,
         title: string,
-        subtitle: string,
+        subtitle?: string,
         description: string,
         flipped?: boolean
+    };
+
+    const titles = {
+        Education: 'Education',
+        Experience: 'Work Experiences',
+        Projects: 'Other Experiences'
     };
 
     const infos: { [id: string]: Box[] } = {
@@ -46,18 +52,31 @@
             {
                 flipped: true,
                 img: "https://picsum.photos/200/200",
-                title: "Data science Internship",
+                title: "Data Science Internship",
                 subtitle: "Eurecat, Barcelona, Spain | Jenuary - June 2021",
                 description: "Analyzing emotions in messages written and received by a user in Wikipedia talk pages over time using Python."
             },
             {
                 flipped: true,
                 img: "https://picsum.photos/300/300",
-                title: "Web developer internship",
+                title: "Web Developer internship",
                 subtitle: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017",
                 description: "Continuous development of multiple restful web apps and APIs used by the company itself or their clients. Developed with Angular, .NET Framework, ASP-NET MVC and Azure authentication services with TypeScript, JavaScript and C#."
             },
-        ]
+        ],
+        Projects: [
+            {
+                img: "https://picsum.photos/210/210",
+                title: "Eletric Racing Car Telemetry",
+                subtitle: "Eagle TRT, Trento, Italy | Semptember 2020 - June 2021",
+                description: "Developing a telemetry software using C for an electric formula SAE car, designed and build by the Eagle Trento racing team since September 2020."
+            },
+            {
+                img: "https://picsum.photos/300/300",
+                title: "Photos & Video Editing",
+                description: "Filmed and edited short videos and photos for local public initiative like calendars, local festival posters and short videos for some of my city events. Edited using Adobe Photoshop, Adobe Premiere Pro and Adobe After Effects."
+            },
+        ],
     };
 
     const boxes = infos?.[type] ?? [];
