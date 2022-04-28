@@ -23,12 +23,17 @@
   :root {
     --theme: #ed9074;
     --theme-2: #ffad6b;
+
   }
 
+  :global(::selection) {
+      background: var(--theme-2);
+  }
   :global(body) {
     margin: 0;
     padding: 0;
     font-family: monospace;
+
   }
   :global(h3) {
     padding: 2px 2em;

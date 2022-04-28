@@ -50,7 +50,7 @@
         .picture {
             width: 120px;
             height: 120px;
-            background-image: url(https://picsum.photos/150/150);
+            background-image: url(/images/pro.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
