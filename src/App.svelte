@@ -8,11 +8,12 @@
 
 
   <div id="about-me" class="section"> <About /> </div>
-  <div id="about-me" class="section"> <Boxes type='Education' /> </div>
-  <div id="about-me" class="section"> <Boxes type='Experience' /> </div>
-  <div id="about-me" class="section"> <Boxes type='Projects' /> </div>
-  <div id="about-me" class="section"> <Skills /> </div>
-  <div id="about-me" class="section"> <Else /> </div>
+  <div id="education" class="section"> <Boxes type='Education' /> </div>
+  <div id="experiences" class="section"> <Boxes type='Experience' /> </div>
+  <div id="projects" class="section"> <Boxes type='Projects' /> </div>
+  <div id="skills" class="section"> <Skills /> </div>
+  <div id="certifications" class="section"> <Certificates /> </div>
+  <div id="else" class="section"> <Else /> </div>
 
 
 
@@ -24,6 +25,7 @@
   import Boxes from "./components/Boxes.svelte";
   import Skills from "./components/Skills.svelte";
   import Else from "./components/Else.svelte";
+  import Certificates from "./components/Certificates.svelte";
 
   import WeatherNight from "svelte-material-icons/WeatherNight.svelte";
   import WeatherSunny from "svelte-material-icons/WeatherSunny.svelte";
@@ -67,6 +69,10 @@
     box-shadow: inset 0 -8px 0px var(--theme-2);
     text-transform: uppercase;
     margin-bottom: 1em;
+  }
+  :global(.show-more) {
+    color: var(--theme);
+    cursor: pointer;
   }
 
   .theme-switch {

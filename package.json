@@ -27,9 +27,11 @@
   },
   "dependencies": {
     "@types/node": "^17.0.25",
+    "flag-icons": "^6.6.6",
     "less": "^4.1.2",
     "mdi-svelte": "^1.1.2",
     "sirv-cli": "^2.0.0",
+    "svelte-flag-icons": "^0.1.1",
     "svelte-material-icons": "^2.0.2"
   }
 }

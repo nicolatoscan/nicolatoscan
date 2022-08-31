@@ -1,4 +1,4 @@
-<h3>Something Else</h3>
+<h3>and more</h3>
 <div class="somethings">
     <div class="something">
         <h4>Hackathon and Competitive Coding challenge</h4>
