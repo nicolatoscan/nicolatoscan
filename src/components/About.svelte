@@ -8,7 +8,7 @@
 <div class="about">
     <div class="picture"></div>
     <p>
-        I'm a 23 years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.<br />
+        I'm a { age } years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.<br />
         I'm passionate about data science and web development.
     </p>
     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.

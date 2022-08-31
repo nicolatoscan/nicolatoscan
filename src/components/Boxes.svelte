@@ -165,6 +165,14 @@ import { It, Se, De, Es} from "svelte-flag-icons";
                 title: "Company websites",
                 description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
             },
+            {
+                img: "./images/kent.jpg",
+                title: "Kent School of English",
+                subtitles: [
+                    { flag: 'Gb', text: "Kent, United Kingdom | Semptember 2016" }
+                ],
+                description: "I took a two week course in English at Kent School of English"
+            },
         ],
     };
 
@@ -194,7 +202,7 @@ import { It, Se, De, Es} from "svelte-flag-icons";
     }
     .box {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 1fr;
         grid-template-rows: auto auto;
         padding: 1em 3em;
         column-gap: 3em;
