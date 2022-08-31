@@ -1,4 +1,4 @@
-<div class="{darkTheme ? 'main dark' : 'box'}">
+<div class="{darkTheme ? 'main dark' : 'main'}">
   <Header />
 
   <div class="theme-switch" on:click={changeTheme}>

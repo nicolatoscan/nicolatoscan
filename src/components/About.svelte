@@ -55,7 +55,7 @@
         .picture {
             width: 120px;
             height: 120px;
-            background-image: url(/images/pro.png);
+            background-image: url(../images/pro.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
