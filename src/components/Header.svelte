@@ -1,8 +1,8 @@
 <div class="header">
   <div class="title">
+    <p class="larger">Welcome to my CV,</p>
     <h1>I'm Nicola Toscan</h1>
     <p>Developer and data scientist</p>
-    <p>Welcome to my website</p>
   </div>
 </div>
 
@@ -30,6 +30,9 @@
     filter: drop-shadow(0 1px 3px);
     margin: 0.4em;
   }
+  .larger {
+    font-size: 1.5em;
+  }
   
   .title {
     display: flex;
@@ -42,7 +45,7 @@
     filter: drop-shadow(0 1px 3px);
     margin: 0.1em;
     letter-spacing: 5px;
-    font-size: 4em;
+    font-size: 3em;
     color: #ddd;
   }
 </style>

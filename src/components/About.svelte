@@ -7,11 +7,15 @@
 </div>
 <div class="about">
     <div class="picture"></div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <p>
+        I'm a 23 years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.<br />
+        I'm passionate about data science and web development.
+    </p>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
         Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
         Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
-    </p>
+    </p> -->
 </div>
 <div class="urls">
     <a href="https://www.github.com/nicolatoscan/" target="_blank"><Github color='#ed9074' size='48' /></a>
@@ -55,7 +59,7 @@
         .picture {
             width: 120px;
             height: 120px;
-            background-image: url(../images/pro.png);
+            background-image: url(../images/pro.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

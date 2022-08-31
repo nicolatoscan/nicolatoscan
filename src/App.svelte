@@ -15,8 +15,10 @@
   <div id="certifications" class="section"> <Certificates /> </div>
   <div id="else" class="section"> <Else /> </div>
 
-
-
+  <footer>
+    <p>Made with Svelte by Me</p>
+    <p>Last updated September 2022</p>
+  </footer>
 </div>
 
 <script lang="ts">
@@ -84,7 +86,6 @@
   }
   .main {
     width: 100%;
-    padding-bottom: 10vh;
     display: inline-block;
   }
 
@@ -92,6 +93,17 @@
     width: 95%;
     max-width: 960px;
     margin: 7em auto 4em;
+  }
+  footer {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    border-top: 1px solid white;
+  }
+  footer p {
+    display: inline-block;
+    margin: 0.5em 4em;
   }
 
 

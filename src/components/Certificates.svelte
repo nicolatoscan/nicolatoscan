@@ -52,7 +52,7 @@
 
         h4 {
             font-size: 1.2em;
-            margin: 3px 0;
+            margin: 1em 0 3px;
         }
         h5 {
             font-size: 1em;
