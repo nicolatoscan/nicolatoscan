@@ -36,13 +36,13 @@
     const infos: { [id: string]: Box[] } = {
         Education: [
             {
-                img: "/images/kth.jpg",
+                img: "./images/kth.jpg",
                 title: "Attending Master in Data Science",
                 subtitle: "KTH, Stockholm, Sweden | August 2021 - current",
                 description: "I graduated from the University of Illinois at Urbana-Champaign with a Bachelor of Science in Computer Science. I have taken courses in Software Engineering, Data Structures, Algorithms, and Object-Oriented Programming. I have also taken courses in Database Systems, Operating Systems, and Computer Architecture."
             },
             {
-                img: "/images/trento.jpg",
+                img: "./images/trento.jpg",
                 title: "Bachelor in Computer Science",
                 subtitle: "University of Trento, Italy | September 2018 - July 2022",
                 description: "I graduated from the University of Illinois at Urbana-Champaign with a Bachelor of Science in Computer Science. I have taken courses in Software Engineering, Data Structures, Algorithms, and Object-Oriented Programming. I have also taken courses in Database Systems, Operating Systems, and Computer Architecture."
@@ -51,14 +51,14 @@
         Experience: [
             {
                 flipped: true,
-                img: "/images/wiki.jpg",
+                img: "./images/wiki.jpg",
                 title: "Data Science Internship",
                 subtitle: "Eurecat, Barcelona, Spain | Jenuary - June 2021",
                 description: "Analyzing emotions in messages written and received by a user in Wikipedia talk pages over time using Python."
             },
             {
                 flipped: true,
-                img: "/images/aqrate.jpg",
+                img: "./images/aqrate.jpg",
                 title: "Web Developer internship",
                 subtitle: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017",
                 description: "Continuous development of multiple restful web apps and APIs used by the company itself or their clients. Developed with Angular, .NET Framework, ASP-NET MVC and Azure authentication services with TypeScript, JavaScript and C#."
@@ -66,20 +66,20 @@
         ],
         Projects: [
             {
-                img: "/images/eagle.jpg",
+                img: "./images/eagle.jpg",
                 title: "Eletric Racing Car Telemetry",
                 subtitle: "Eagle TRT, Trento, Italy | Semptember 2020 - June 2021",
                 description: "Developing a telemetry software using C for an electric formula SAE car, designed and build by the Eagle Trento racing team since September 2020."
             },
             {
-                img: "/images/webapp.jpg",
+                img: "./images/webapp.jpg",
                 title: "Web Apps as management software",
                 description: "Developed the following two management software applications as web apps using Vue, Node.js, MongoDB and SQL databases:<br />" +
                     "Web app to manage the accomodation offered by the University of Trento through Opera.<br />" +
                     "Web app to manage the books catalogued by the library of Bolzano through librilib(e)ri."
             },
             {
-                img: "/images/fal.jpg",
+                img: "./images/fal.jpg",
                 title: "Company websites",
                 description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
             },
