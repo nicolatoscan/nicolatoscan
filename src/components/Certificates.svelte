@@ -35,11 +35,6 @@
         <p class="show-more" on:click={ () => { caeMore = !caeMore} }>{caeMore ? 'Show less' : 'Show more'}</p>
     </div>
 
-    <div class="something">
-        <h4>Photos & Video Editing</h4>
-        <p>Filmed and edited short videos and photos for local public initiative like calendars, local festival posters and short videos for some of my city events. Edited using Adobe Photoshop, Adobe Premiere Pro and Adobe After Effects.</p>
-    </div>
-
 </div>
 
 <script lang="ts">
