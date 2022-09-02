@@ -65,6 +65,7 @@
             background-repeat: no-repeat;
             border-radius: 50%;
             margin: 1em;
+            border: 4px solid var(--theme-2);
         }
     }
 
@@ -74,7 +75,7 @@
         justify-content: center;
         margin: 1em auto;
         padding: 0 3em;
-        border-top: 1px solid var(--theme);
+        border-top: 1px solid var(--theme-2);
         width: fit-content;
 
         a {

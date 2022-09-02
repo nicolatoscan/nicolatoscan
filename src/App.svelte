@@ -10,8 +10,8 @@
   <div id="about-me" class="section"> <About /> </div>
   <div id="education" class="section"> <Boxes type='Education' /> </div>
   <div id="experiences" class="section"> <Boxes type='Experience' /> </div>
-  <div id="projects" class="section"> <Boxes type='Projects' /> </div>
   <div id="skills" class="section"> <Skills /> </div>
+  <div id="projects" class="section"> <Boxes type='Projects' /> </div>
   <div id="certifications" class="section"> <Certificates /> </div>
   <div id="else" class="section"> <Else /> </div>
 
@@ -62,7 +62,7 @@
 
   }
   :global(h3) {
-    padding: 2px 2em;
+    padding: 0 2em;
     font-size: 2em;
     display: block;
     text-align: center;

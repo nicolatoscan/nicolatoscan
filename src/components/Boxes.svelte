@@ -3,7 +3,9 @@
     {#each boxes as b}
     <div class="{b.flipped ? 'box flipped' : 'box'}">
         <div class="box-img">
+            { #if b.img }
             <img src="{ b.img }" alt="">
+            { /if }
         </div>
         <div class="box-title">
             <h4>
@@ -14,7 +16,7 @@
                     { #if s.flag } <img src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" /> { /if }
                     <h5>{ s.text }</h5>
                 </div>
-            { /each } { /if }
+            { /each }{ /if }
         </div>
         <div class="box-description">
             <p>{@html b.description }</p>
@@ -37,7 +39,7 @@ import { It, Se, De, Es} from "svelte-flag-icons";
     const flagsComp = { It, Se, De, Es }
 
     type Box = {
-        img: string,
+        img?: string,
         title: string,
         subtitles?: {flag?: string, text: string}[],
         description: string,
@@ -56,7 +58,7 @@ import { It, Se, De, Es} from "svelte-flag-icons";
         Education: [
             {
                 img: "./images/kth.jpg",
-                title: "Attending Joint Master in Data Science",
+                title: "Attending Master's in Data Science",
                 subtitles: [
                     {flag: "Se", text: "KTH, Stockholm, Sweden | August 2021 - June 2022"},
                     {flag: "De", text: "TUB, Berlin, Germany | October 2022 - Current"},
@@ -80,7 +82,7 @@ import { It, Se, De, Es} from "svelte-flag-icons";
             },
             {
                 img: "./images/trento.jpg",
-                title: "Bachelor in Computer Science",
+                title: "Bachelor's in Computer Science",
                 subtitles: [
                     { flag: 'It', text: "University of Trento, Trento, Italy | September 2018 - July 2022" }
                 ],
@@ -127,7 +129,7 @@ import { It, Se, De, Es} from "svelte-flag-icons";
             {
                 flipped: true,
                 img: "./images/aqrate.jpg",
-                title: "Web Developer internship",
+                title: "Web Developer Internship",
                 subtitles: [
                     { flag: 'It', text: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017" }
                 ],
@@ -160,19 +162,17 @@ import { It, Se, De, Es} from "svelte-flag-icons";
                     "Web app to manage the accomodation offered by the University of Trento through Opera.<br />" +
                     "Web app to manage the books catalogued by the library of Bolzano through librilib(e)ri."
             },
-            {
-                img: "./images/fal.jpg",
-                title: "Company websites",
-                description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
-            },
-            {
-                img: "./images/kent.jpg",
-                title: "Kent School of English",
-                subtitles: [
-                    { flag: 'Gb', text: "Kent, United Kingdom | Semptember 2016" }
-                ],
-                description: "I took a two week course in English at Kent School of English"
-            },
+            // {
+            //     // img: "./images/fal.jpg",
+            //     title: "Company websites",
+            //     description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
+            // },
+            // {
+            //     // img: "./images/kent.jpg",
+            //     title: "Kent School of English",
+            //     subtitles: [ { flag: 'Gb', text: "Kent, United Kingdom | Semptember 2016" } ],
+            //     description: "I took a two week course in English at Kent School of English"
+            // }
         ],
     };
 
