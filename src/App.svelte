@@ -11,9 +11,10 @@
   <div id="education" class="section"> <Boxes type='Education' /> </div>
   <div id="experiences" class="section"> <Boxes type='Experience' /> </div>
   <div id="skills" class="section"> <Skills /> </div>
-  <div id="projects" class="section"> <Boxes type='Projects' /> </div>
+  <div id="other-experiences" class="section"> <Boxes type='Projects' /> </div>
   <div id="certifications" class="section"> <Certificates /> </div>
   <div id="else" class="section"> <Else /> </div>
+  <div id="projects" class="section"> <Projects darkTheme={darkTheme} /> </div>
 
   <footer>
     <p>Made with Svelte by Me</p>
@@ -28,6 +29,7 @@
   import Skills from "./components/Skills.svelte";
   import Else from "./components/Else.svelte";
   import Certificates from "./components/Certificates.svelte";
+  import Projects from "./components/Projects.svelte";
 
   import WeatherNight from "svelte-material-icons/WeatherNight.svelte";
   import WeatherSunny from "svelte-material-icons/WeatherSunny.svelte";
@@ -50,6 +52,7 @@
   :root {
     --theme: #ed9074;
     --theme-2: #ffad6b;
+    --theme-3: #4d2504;
   }
 
   :global(::selection) {

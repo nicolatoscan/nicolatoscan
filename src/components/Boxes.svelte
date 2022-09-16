@@ -32,8 +32,8 @@
 </div>
 
 <script lang="ts">
-	import { text } from 'stream/consumers';
-import { It, Se, De, Es} from "svelte-flag-icons";
+    import { text } from 'stream/consumers';
+    import { It, Se, De, Es} from "svelte-flag-icons";
     export let type: string;
 
     const flagsComp = { It, Se, De, Es }
