@@ -48,8 +48,22 @@
 
     .skills {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr auto;
         align-items: center;
         column-gap: 2em;
     }
+
+    @media only screen and (max-width: 750px) {
+        p, h4 {
+            text-align: center;
+        }
+        h4 {
+            margin-bottom: 0 !important;
+        }
+        .skills {
+            grid-template-columns: auto;
+        }
+
+     }
+
 </style>
