@@ -12,9 +12,9 @@
   <div id="experiences" class="section"> <Boxes type='Experience' /> </div>
   <div id="skills" class="section"> <Skills /> </div>
   <div id="other-experiences" class="section"> <Boxes type='Projects' /> </div>
-  <div id="certifications" class="section"> <Certificates /> </div>
-  <div id="else" class="section"> <Else /> </div>
   <div id="projects" class="section"> <Projects darkTheme={darkTheme} /> </div>
+  <div id="else" class="section"> <Else /> </div>
+  <div id="certifications" class="section"> <Certificates /> </div>
 
   <footer>
     <p>Made with Svelte by Me</p>
