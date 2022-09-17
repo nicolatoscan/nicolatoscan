@@ -31,6 +31,7 @@
     const projects: { name: string, projects: Project[] }[] = [
         { name: "Web", projects: [
             { name: "CV",               link: "https://github.com/nicolatoscan/cv",                     description: "This website" },
+            { name: "Rememo",           link: "https://github.com/nicolatoscan/rememo-webapp",          description: "WebApp with flashcards to learn languages" },
             { name: "Monopoly Bank",    link: "https://github.com/nicolatoscan/monopoly-bank",          description: "Manage a \"Credit card Monopoly\" game when the card reader breaks" },
             { name: "Concorso Presepi", link: "https://github.com/nicolatoscan/concorso-presepi-2020",  description: "Vote for the best nativity scene in my Village" },
             { name: "Copy Lorem Ipsum", link: "https://github.com/nicolatoscan/copy-lorem-ipsum",       description: "By opening this site Lorem Ipsum will be copied in your clipboard" },
@@ -44,6 +45,10 @@
             { name: "Auto Suscriber Exam",          link: "https://github.com/nicolatoscan/automatic-suscribe-exam",                    description: "Automatically suscribes you to the exam you want when a new place is available" },
             { name: "Telegram shell controller",    link: "https://github.com/nicolatoscan/telegram-shell-controller",                  description: "Control your shell from your phone" },
             { name: "Files bot",                    link: "https://github.com/nicolatoscan/file-bot",                                   description: "Remotely download a file and upload it to Telegram" },
+        ] },
+        { name: "Android", projects: [
+            { name: "Rememo",       link: "https://github.com/nicolatoscan/rememo-android-app", description: "Android App with flashcards to learn languages" },
+            { name: "Frier Timer",  link: "https://github.com/nicolatoscan/FrierTimer",         description: "Android app to check fring time in two basket friers" },
         ] },
         { name: "Arduino", projects: [
             { name: "Smart lights", link: "https://github.com/nicolatoscan/smart-hub-console-controller",   description: "Controll the lights of my house with Arduino" },
