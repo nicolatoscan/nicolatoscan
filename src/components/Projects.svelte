@@ -128,6 +128,7 @@
             }
             &:hover {
                 text-decoration: none;
+                background-color: var(--theme-select);
             }
         }
     }

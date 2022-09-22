@@ -65,6 +65,9 @@
   :global(.themed-icon path) {
     fill: var(--theme) !important;
   }
+  :global(.themed-icon svg:hover path) {
+    fill: var(--theme-select) !important;
+  }
 
 
   :global(::selection) {

@@ -18,6 +18,11 @@
     <a href="mailto:me@toscan.dev"                      aria-label="Email"    class="themed-icon" target="_blank"><Email    size='48' /> </a>
     <a href="https://www.t.me/nicolatoscan/"            aria-label="Telegram" class="themed-icon" target="_blank"><Telegram size='48' /> </a>
 </div>
+<div class="download-as-pdf">
+    <a href="./files/NicolaToscan_CV.pdf" target="_blank">
+        <p>Download resume as PDF</p><PdfBox size='32' />
+    </a>
+</div>
 
 
 <script lang="ts">
@@ -25,6 +30,7 @@
     import Linkedin from "svelte-material-icons/Linkedin.svelte";
     import Email from "svelte-material-icons/Email.svelte";
     import Telegram from "svelte-material-icons/Telegram.svelte";
+    import PdfBox from "svelte-material-icons/PdfBox.svelte";
 
     const age = Math.floor( (new Date().getTime() - new Date(1999, 0, 31).getTime()) / 3.15576e+10 );
 </script>
@@ -69,8 +75,8 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 1em auto;
-        padding: 0 3em;
+        margin: 0 auto 1em;
+        padding: 0.5em 3em 0;
         border-top: 1px solid var(--theme);
         width: fit-content;
 
@@ -85,6 +91,31 @@
             width: 90px;
             display: inline-block;
             color: var(--theme);
+        }
+    }
+
+    .download-as-pdf {
+        display: flex;
+        justify-content: center;
+        a {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 1em;
+            padding: 0.5em 2em;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            background-color: var(--theme);
+            color: var(--color-bg);
+
+            p {
+                margin: 0;
+                margin-right: 1em;
+            }
+            &:hover {
+                text-decoration: none;
+                background-color: var(--theme-select);
+            }
         }
     }
 </style>
