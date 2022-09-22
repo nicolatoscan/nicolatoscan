@@ -90,6 +90,7 @@
                 p.name {
                     color: var(--theme);
                     text-align: right;
+                    text-decoration: underline;
                 }
             }
         }
