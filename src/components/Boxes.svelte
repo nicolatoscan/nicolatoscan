@@ -13,7 +13,7 @@
             </h4>
             { #if b.subtitles }{#each b.subtitles as s}
                 <div class="subtitle">
-                    { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag"/> { /if }
+                    { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" width="640" height="480"/> { /if }
                     <h5>{ s.text }</h5>
                 </div>
             { /each }{ /if }
@@ -197,6 +197,7 @@
         }
         .flag {
             height: 1.3em;
+            width: 1.8em;
             margin-top: 3px;
             margin-bottom: 3px;
             margin-right: 0.5em;
