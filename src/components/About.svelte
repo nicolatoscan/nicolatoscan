@@ -59,7 +59,7 @@
         .picture {
             width: 120px;
             height: 120px;
-            background-image: url(../images/pro.jpg);
+            background-image: url(../images/pro.webp);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
