@@ -4,7 +4,7 @@
     <div class="{b.flipped ? 'box flipped' : 'box'}">
         <div class="box-img">
             { #if b.img }
-            <img src="{ b.img }" alt="">
+            <img loading="lazy" src="{ b.img }" alt="">
             { /if }
         </div>
         <div class="box-title">
@@ -13,7 +13,7 @@
             </h4>
             { #if b.subtitles }{#each b.subtitles as s}
                 <div class="subtitle">
-                    { #if s.flag } <img src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" /> { /if }
+                    { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag"/> { /if }
                     <h5>{ s.text }</h5>
                 </div>
             { /each }{ /if }
@@ -57,7 +57,7 @@
     const infos: { [id: string]: Box[] } = {
         Education: [
             {
-                img: "./images/kth.jpg",
+                img: "./images/kth.webp",
                 title: "Attending Master's in Data Science",
                 subtitles: [
                     {flag: "Se", text: "KTH, Stockholm, Sweden | August 2021 - June 2022"},
@@ -81,7 +81,7 @@
                 "
             },
             {
-                img: "./images/trento.jpg",
+                img: "./images/trento.webp",
                 title: "Bachelor's in Computer Science",
                 subtitles: [
                     { flag: 'It', text: "University of Trento, Trento, Italy | September 2018 - July 2022" }
@@ -119,7 +119,7 @@
         Experience: [
             {
                 flipped: true,
-                img: "./images/wiki.jpg",
+                img: "./images/wiki.webp",
                 title: "Data Science Internship",
                 subtitles: [
                     { flag: 'Es', text: "Eurecat, Barcelona, Spain | January - June 2021" }
@@ -128,7 +128,7 @@
             },
             {
                 flipped: true,
-                img: "./images/aqrate.jpg",
+                img: "./images/aqrate.webp",
                 title: "Web Developer Internship",
                 subtitles: [
                     { flag: 'It', text: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017" }
@@ -138,7 +138,7 @@
         ],
         Projects: [
             {
-                img: "./images/rennes.jpg",
+                img: "./images/rennes.webp",
                 title: "Summer School - Solutions for Healthier Digital Cities",
                 subtitles: [
                     { flag: 'Fr', text: "Université de Rennes 1, Rennes, France | July 2022" }
@@ -148,7 +148,7 @@
                 We took courses on Entrepreneurship and Business analysis."
             },
             {
-                img: "./images/eagle.jpg",
+                img: "./images/eagle.webp",
                 title: "Eletric Racing Car Telemetry",
                 subtitles: [
                     { flag: 'It', text: "Eagle TRT, Trento, Italy | Semptember 2020 - June 2021" }
@@ -156,7 +156,7 @@
                 description: "Developing a telemetry software using C for an electric formula SAE car, designed and build by the Eagle Trento racing team since September 2020."
             },
             {
-                img: "./images/webapp.jpg",
+                img: "./images/webapp.webp",
                 title: "Web Apps as management software",
                 description: "Developed the following two management software applications as web apps using Vue, Node.js, MongoDB and SQL databases:<br />\
                 <ul>\
@@ -165,12 +165,12 @@
                 </ui>"
             },
             // {
-            //     // img: "./images/fal.jpg",
+            //     // img: "./images/fal.webp",
             //     title: "Company websites",
             //     description: "Developed two websites to for local companies with php. I also took care of taking pictures and video to promote their products."
             // },
             // {
-            //     // img: "./images/kent.jpg",
+            //     // img: "./images/kent.webp",
             //     title: "Kent School of English",
             //     subtitles: [ { flag: 'Gb', text: "Kent, United Kingdom | Semptember 2016" } ],
             //     description: "I took a two week course in English at Kent School of English"

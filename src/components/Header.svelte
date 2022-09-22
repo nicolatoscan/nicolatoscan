@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 30vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../images/cover.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../images/cover.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
