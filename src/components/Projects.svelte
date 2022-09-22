@@ -103,7 +103,6 @@
             text-align: center;
             font-weight: bolder;
             color: var(--theme);
-            font-size: 1.2em;
         }
     }
 

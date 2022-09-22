@@ -19,7 +19,7 @@
     </div>
 
     <div class="something">
-        <h3>Photos & Video Editing</h3>
+        <h3>Photo & Video Editing</h3>
         <p>Filmed and edited short videos and photos for local public initiative like calendars, local festival posters and short videos for some of my city events. Edited using Adobe Photoshop, Adobe Premiere Pro and Adobe After Effects.</p>
     </div>
 
@@ -36,6 +36,10 @@
         margin: auto;
         text-align: center;
         border-bottom: 1px solid var(--theme);
+
+        h3 {
+            color: var(--theme);
+        }
 
         &:last-child {
             border-bottom: none;
