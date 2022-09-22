@@ -23,10 +23,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom: 20px solid var(--theme-2);
+    border-bottom: 20px solid var(--theme);
   }
   p {
-    color: #ccc;
+    color: var(--white);
     filter: drop-shadow(0 1px 3px);
     margin: 0.4em;
   }
@@ -46,6 +46,6 @@
     margin: 0.1em;
     letter-spacing: 5px;
     font-size: 3em;
-    color: #ddd;
+    color: var(--white);
   }
 </style>

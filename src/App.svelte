@@ -1,9 +1,9 @@
-<div class="{darkTheme ? 'main dark' : 'main'}">
+<div class="{darkTheme ? 'main dark' : 'main light'}">
   <Header />
 
-  <div class="theme-switch" on:click={changeTheme}>
-    { #if darkTheme }<WeatherSunny color='#ed9074' size='32' />{/if}
-    { #if !darkTheme }<WeatherNight color='#ed9074' size='32' />{/if}
+  <div class="theme-switch themed-icon" on:click={changeTheme}>
+    { #if darkTheme }<WeatherSunny color='#ffad6b' size='32' />{/if}
+    { #if !darkTheme }<WeatherNight color='#ffad6b' size='32' />{/if}
   </div>
 
 
@@ -12,7 +12,7 @@
   <div id="experiences" class="section"> <Boxes type='Experience' /> </div>
   <div id="skills" class="section"> <Skills /> </div>
   <div id="other-experiences" class="section"> <Boxes type='Projects' /> </div>
-  <div id="projects" class="section"> <Projects darkTheme={darkTheme} /> </div>
+  <div id="projects" class="section"> <Projects /> </div>
   <div id="else" class="section"> <Else /> </div>
   <div id="certifications" class="section"> <Certificates /> </div>
 
@@ -44,19 +44,31 @@
 
 <style>
 
+  :root {
+    --theme: #C04000;
+    --theme-select: #FFAD6B;
+    --theme-background: #FFDEAD;
+    --color: #222;
+    --color-bg: #FFFDFA;
+
+    --white: #FFFDFA;
+    --black: #222;
+  }
   .dark {
-    color: white;
-    background-color: #212121;
+    --theme: #FFAD6B;
+    --theme-select: #C04000;
+    --theme-background: #A0522D;
+    --color: #FFFDFA;
+    --color-bg: #222;
   }
 
-  :root {
-    --theme: #ff3c00;
-    --theme-2: #ffad6b;
-    --theme-3: #4d2504;
+  :global(.themed-icon path) {
+    fill: var(--theme) !important;
   }
+
 
   :global(::selection) {
-      background: var(--theme-2);
+      background: var(--theme-select);
   }
   :global(body) {
     margin: 0;
@@ -71,7 +83,7 @@
     text-align: center;
     margin: auto;
     width: fit-content;
-    box-shadow: inset 0 -8px 0px var(--theme-2);
+    box-shadow: inset 0 -8px 0px var(--theme);
     text-transform: uppercase;
     margin-bottom: 1em;
   }
@@ -90,6 +102,8 @@
   .main {
     width: 100%;
     display: inline-block;
+    color: var(--color);
+    background-color: var(--color-bg);
   }
 
   .section {
@@ -101,8 +115,9 @@
     margin-top: 10vh;
     display: flex;
     justify-content: space-between;
+    color: #FFFDFA;
     background-color: #111;
-    border-top: 1px solid white;
+    border-top: 1px solid #FFFDFA;
   }
   footer p {
     display: inline-block;

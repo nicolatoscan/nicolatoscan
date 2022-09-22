@@ -13,10 +13,10 @@
     </p>
 </div>
 <div class="urls">
-    <a href="https://www.github.com/nicolatoscan/"      aria-label="GitHub"    target="_blank"><Github color='#ed9074' size='48'   /> </a>
-    <a href="https://www.linkedin.com/in/nicolatoscan/" aria-label="LinkedIn"  target="_blank"><Linkedin color='#ed9074' size='48' /> </a>
-    <a href="mailto:me@toscan.dev"                      aria-label="Email"     target="_blank"><Email color='#ed9074' size='48'    /> </a>
-    <a href="https://www.t.me/nicolatoscan/"            aria-label="Telegram"  target="_blank"><Telegram color='#ed9074' size='48' /> </a>
+    <a href="https://www.github.com/nicolatoscan/"      aria-label="GitHub"   class="themed-icon" target="_blank"><Github   size='48' /> </a>
+    <a href="https://www.linkedin.com/in/nicolatoscan/" aria-label="LinkedIn" class="themed-icon" target="_blank"><Linkedin size='48' /> </a>
+    <a href="mailto:me@toscan.dev"                      aria-label="Email"    class="themed-icon" target="_blank"><Email    size='48' /> </a>
+    <a href="https://www.t.me/nicolatoscan/"            aria-label="Telegram" class="themed-icon" target="_blank"><Telegram size='48' /> </a>
 </div>
 
 
@@ -38,7 +38,9 @@
         column-gap: 3em;
         grid-template-columns: 1fr 1fr;
         padding: 1.5em .5em;
-        @media only screen and (max-width: 750px) { grid-template-columns: 1fr; }
+        @media only screen and (max-width: 750px) {
+            grid-template-columns: 1fr;
+        }
     }
     .about {
         display: grid;
@@ -59,7 +61,7 @@
             background-repeat: no-repeat;
             border-radius: 50%;
             margin: 1em;
-            border: 4px solid var(--theme-2);
+            border: 4px solid var(--theme);
         }
     }
 
@@ -69,7 +71,7 @@
         justify-content: center;
         margin: 1em auto;
         padding: 0 3em;
-        border-top: 1px solid var(--theme-2);
+        border-top: 1px solid var(--theme);
         width: fit-content;
 
         a {
@@ -82,7 +84,7 @@
         .info-name {
             width: 90px;
             display: inline-block;
-            color: #ed9074;
+            color: var(--theme);
         }
     }
 </style>

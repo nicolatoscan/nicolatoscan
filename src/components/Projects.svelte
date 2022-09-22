@@ -15,17 +15,14 @@
     { /each }
 </div>
 <div class="more-github">
-    <a href="https://github.com/nicolatoscan" target="_blank" class={ darkTheme ? 'dark' : '#000' }>
-        <p>And many more on my Github</p><Github color='#FFF' size='32' />
+    <a href="https://github.com/nicolatoscan" target="_blank">
+        <p>And many more on my Github</p><Github size='32' />
     </a>
 </div>
 
 
 <script lang="ts">
     import Github from "svelte-material-icons/Github.svelte";
-
-    export let darkTheme: boolean;
-
 
     type Project = { name: string, description: string, link: string }
     const projects: { name: string, projects: Project[] }[] = [
@@ -84,8 +81,7 @@
                 padding: 0.3em;
 
                 &:hover {
-                    background-color: var(--theme-3);
-                    color: white;
+                    background-color: var(--theme-background);
                 }
 
                 p {
@@ -124,18 +120,18 @@
             display: flex;
             align-items: center;
             background-color: var(--theme);
-            &.dark {
-                background-color: var(--theme-3);
-            }
+            color: var(--color-bg);
 
             p {
                 margin: 0;
                 margin-right: 1em;
-                color: white;
             }
             &:hover {
                 text-decoration: none;
             }
         }
+    }
+    :global(.more-github path) {
+        fill: var(--color-bg) !important;
     }
 </style>
