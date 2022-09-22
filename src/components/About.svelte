@@ -3,7 +3,7 @@
     <p><span class="info-name">Name:</span>Nicola Toscan</p>
     <p><span class="info-name">From:</span>Italy</p>
     <p><span class="info-name">Age:</span>{ age }</p>
-    <p><span class="info-name">Now in:</span>Stockholm</p>
+    <p><span class="info-name">Now in:</span>Pieve del Grappa</p>
 </div>
 <div class="about">
     <div class="picture"></div>
@@ -20,7 +20,7 @@
 <div class="urls">
     <a href="https://www.github.com/nicolatoscan/" target="_blank"><Github color='#ed9074' size='48' /></a>
     <a href="https://www.linkedin.com/in/nicolatoscan/" target="_blank"><Linkedin color='#ed9074' size='48' /></a>
-    <a href="mailto:nicolatoscan.99+cv@gmail.com" target="_blank"><Email color='#ed9074' size='48' /></a>
+    <a href="mailto:me@toscan.dev" target="_blank"><Email color='#ed9074' size='48' /></a>
     <a href="https://www.t.me/nicolatoscan/" target="_blank"><Telegram color='#ed9074' size='48' /></a>
     
 </div>
