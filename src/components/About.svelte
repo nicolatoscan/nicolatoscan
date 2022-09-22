@@ -11,17 +11,12 @@
         I'm a { age } years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.<br />
         I'm passionate about data science and web development.
     </p>
-    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
-        Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
-        Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget consectetur nisl nisi euismod nisi.
-    </p> -->
 </div>
 <div class="urls">
-    <a href="https://www.github.com/nicolatoscan/" target="_blank"><Github color='#ed9074' size='48' /></a>
-    <a href="https://www.linkedin.com/in/nicolatoscan/" target="_blank"><Linkedin color='#ed9074' size='48' /></a>
-    <a href="mailto:me@toscan.dev" target="_blank"><Email color='#ed9074' size='48' /></a>
-    <a href="https://www.t.me/nicolatoscan/" target="_blank"><Telegram color='#ed9074' size='48' /></a>
+    <a href="https://www.github.com/nicolatoscan/"      alt="GitHub"    target="_blank"><Github color='#ed9074' size='48'   /></a>
+    <a href="https://www.linkedin.com/in/nicolatoscan/" alt="LinkedIn"  target="_blank"><Linkedin color='#ed9074' size='48' /></a>
+    <a href="mailto:me@toscan.dev"                      alt="Email"     target="_blank"><Email color='#ed9074' size='48'    /></a>
+    <a href="https://www.t.me/nicolatoscan/"            alt="Telegram"  target="_blank"><Telegram color='#ed9074' size='48' /></a>
     
 </div>
 
