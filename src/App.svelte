@@ -34,7 +34,7 @@
   import WeatherNight from "svelte-material-icons/WeatherNight.svelte";
   import WeatherSunny from "svelte-material-icons/WeatherSunny.svelte";
 
-  let darkTheme = localStorage.getItem("darkTheme") === "true";
+  let darkTheme = !(localStorage.getItem("darkTheme") === "false");
   function changeTheme() {
     darkTheme = !darkTheme;
     localStorage.setItem("darkTheme", darkTheme ? "true" : "false");
@@ -50,7 +50,7 @@
   }
 
   :root {
-    --theme: #ed9074;
+    --theme: #ff3c00;
     --theme-2: #ffad6b;
     --theme-3: #4d2504;
   }
