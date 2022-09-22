@@ -20,7 +20,7 @@
     <p> Linux, Git, Docker </p>
 
     <h4>CLOUD INFRASTRUCTURE:</h4>
-    <p> Google Cloude, Azure, Aws, Heroku </p>
+    <p> Google Cloud, Azure, Aws, Heroku </p>
 
     <h4>OTHER SOFTWARES:</h4>
     <p> Office suite, Photoshop, Premiere Pro </p>
