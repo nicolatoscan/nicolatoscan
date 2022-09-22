@@ -1,7 +1,7 @@
-<h3>and more</h3>
+<h2>and more</h2>
 <div class="somethings">
     <div class="something">
-        <h4>Hackathon and Competitive Coding challenge</h4>
+        <h3>Hackathon and Competitive Coding challenge</h3>
         <div>
             <ul>
                 <li>Google HashCode (2019 and 2020)</li>
@@ -14,12 +14,12 @@
     </div>
 
     <div class="something">
-        <h4>Tutor and organizer</h4>
+        <h3>Tutor and organizer</h3>
         <p>Tutor and organizer of 3 courses addressed to members of voluntary associations and other students about “Computer use essentials”, “The basics of Photoshop” and “The basics of Angular” from 2016 to 2018</p>
     </div>
 
     <div class="something">
-        <h4>Photos & Video Editing</h4>
+        <h3>Photos & Video Editing</h3>
         <p>Filmed and edited short videos and photos for local public initiative like calendars, local festival posters and short videos for some of my city events. Edited using Adobe Photoshop, Adobe Premiere Pro and Adobe After Effects.</p>
     </div>
 

@@ -1,4 +1,4 @@
-<h3>{ titles[type] }</h3>
+<h2>{ titles[type] }</h2>
 <div class="boxes">
     {#each boxes as b}
     <div class="{b.flipped ? 'box flipped' : 'box'}">
@@ -8,13 +8,13 @@
             { /if }
         </div>
         <div class="box-title">
-            <h4>
+            <h3>
                 { b.title }
-            </h4>
+            </h3>
             { #if b.subtitles }{#each b.subtitles as s}
                 <div class="subtitle">
                     { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" width="640" height="480"/> { /if }
-                    <h5>{ s.text }</h5>
+                    <h4>{ s.text }</h4>
                 </div>
             { /each }{ /if }
         </div>
@@ -184,14 +184,14 @@
 
 
 <style lang="less">
-    h4 {
+    h3 {
         font-size: 1.2em;
         margin: 3px 0;
     }
     .subtitle {
         display: flex;
         align-items: center;
-        h5 {
+        h4 {
             font-size: 1em;
             margin: 3px 0;
         }

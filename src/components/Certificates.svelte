@@ -1,8 +1,8 @@
-<h3>Certificates</h3>
+<h2>Certificates</h2>
 <div class="somethings">
     <div class="something">
-        <h4>CCNA Routing and Switching: Introduction to Networks</h4>
-        <h5>Cisco Network accademy | November 2017</h5>
+        <h3>CCNA Routing and Switching: Introduction to Networks</h3>
+        <h4>Cisco Network accademy | November 2017</h4>
         { #if ciscoShowMore } 
             <ul>
                 <li>Understand and describe the devices and services used to support communications in data networks and the Internet</li>
@@ -19,8 +19,8 @@
     </div>
 
     <div class="something">
-        <h4>Certificate in Advance English (CAE)</h4>
-        <h5>Cambridge English | March 2017</h5>
+        <h3>Certificate in Advance English (CAE)</h3>
+        <h4>Cambridge English | March 2017</h4>
         <p>Cambridge English Level 2 Certificate in ESOL International (Advance)</p>
         { #if caeMore }
         Overal Score: 189
@@ -50,11 +50,11 @@
         padding: 0 1em;
         border-bottom: 1px solid var(--theme);
 
-        h4 {
+        h3 {
             font-size: 1.2em;
             margin: 1em 0 3px;
         }
-        h5 {
+        h4 {
             font-size: 1em;
             margin: 0 0 1em;
         }

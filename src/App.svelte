@@ -64,7 +64,7 @@
     font-family: monospace;
 
   }
-  :global(h3) {
+  :global(h2) {
     padding: 0 2em;
     font-size: 2em;
     display: block;

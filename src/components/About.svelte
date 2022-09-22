@@ -1,4 +1,4 @@
-<h3>ABOUT ME</h3>
+<h2>ABOUT ME</h2>
 <div class="my-info">
     <p><span class="info-name">Name:</span>Nicola Toscan</p>
     <p><span class="info-name">From:</span>Italy</p>
@@ -17,7 +17,6 @@
     <a href="https://www.linkedin.com/in/nicolatoscan/" alt="LinkedIn"  target="_blank"><Linkedin color='#ed9074' size='48' /></a>
     <a href="mailto:me@toscan.dev"                      alt="Email"     target="_blank"><Email color='#ed9074' size='48'    /></a>
     <a href="https://www.t.me/nicolatoscan/"            alt="Telegram"  target="_blank"><Telegram color='#ed9074' size='48' /></a>
-    
 </div>
 
 

@@ -1,8 +1,8 @@
-<h3>Personal Projects</h3>
+<h2>Personal Projects</h2>
 <div class="somethings">
     {#each projects as prjs}
     <div class="something">
-        <h4>{ prjs.name }</h4>
+        <h3>{ prjs.name }</h3>
         <div class="list">
             { #each prjs.projects as p }
             <a href="{p.link}" target=”_blank” >
@@ -102,7 +102,7 @@
             border-bottom: none;
         }
         
-        h4 {
+        h3 {
             margin-top: 0;
             text-align: center;
             font-weight: bolder;

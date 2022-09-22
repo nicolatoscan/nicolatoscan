@@ -1,28 +1,28 @@
-<h3>Skills</h3>
+<h2>Skills</h2>
 <div class="skills">
     
-    <h4 class="spacer">SOFT SKILLS:</h4>
+    <h3 class="spacer">SOFT SKILLS:</h3>
     <p class="spacer"> Flexibility, Team work, Work under pressure </p>
 
-    <h4>PROGRAMMING LANGUAGES:</h4>
+    <h3>PROGRAMMING LANGUAGES:</h3>
     <p> Typescript, Javascript, Python, C#, C++, Java </p>
 
-    <h4>JS FRAMEWORKS:</h4>
+    <h3>JS FRAMEWORKS:</h3>
     <p> Vue, React, Angular, Express.js </p>
 
-    <h4>DESKTOP & MOBILE:</h4>
+    <h3>DESKTOP & MOBILE:</h3>
     <p> .NET, Android Studio </p>
 
-    <h4>DATABASES:</h4>
+    <h3>DATABASES:</h3>
     <p> Postgtres, MongoDB </p>
 
-    <h4>IT SOFTWARES:</h4>
+    <h3>IT SOFTWARES:</h3>
     <p> Linux, Git, Docker </p>
 
-    <h4>CLOUD INFRASTRUCTURE:</h4>
+    <h3>CLOUD INFRASTRUCTURE:</h3>
     <p> Google Cloud, Azure, Aws, Heroku </p>
 
-    <h4>OTHER SOFTWARES:</h4>
+    <h3>OTHER SOFTWARES:</h3>
     <p> Office suite, Photoshop, Premiere Pro </p>
 
 </div>
@@ -33,11 +33,11 @@
 
 
 <style lang="less">
-    h4 {
+    h3 {
         color: var(--theme);
         text-align: right;
     }
-    p, h4 {
+    p, h3 {
         font-size: 1.5em;
         margin: 0.5em 0;
     }
@@ -54,10 +54,10 @@
     }
 
     @media only screen and (max-width: 750px) {
-        p, h4 {
+        p, h3 {
             text-align: center;
         }
-        h4 {
+        h3 {
             margin-bottom: 0 !important;
         }
         .skills {
