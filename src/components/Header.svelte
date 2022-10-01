@@ -1,15 +1,39 @@
 <div class="header">
   <div class="title">
-    <p class="larger">Welcome to my CV,</p>
+    <p class="welcome">{ welcome }</p>
     <h1>I'm Nicola Toscan</h1>
-    <p>Developer and data scientist</p>
+    <p>Developer &amp; MSc Data Science Student</p>
   </div>
 </div>
 
 <script lang="ts">
-</script>
+  const welcomes = [ "Welcome!", "Benvenuto!", "Willkommen!", "Välkommen!", "Bienvenue!", "¡Bienvenidas!" ]
+  let wIndex = 0;
+  let welcome = welcomes[wIndex];
 
+  function changeWelcome () {
+    let newWIndex = wIndex;
+    while (newWIndex === wIndex) newWIndex = Math.floor(Math.random() * welcomes.length);
+    wIndex = newWIndex;
+    welcome = welcomes[wIndex];
+  }
+
+  setTimeout(() => {
+    changeWelcome();
+    setInterval(() => { changeWelcome(); }, 10000);
+  }, 8750);
+
+
+
+</script>
 <style>
+  @keyframes fadeIn {
+    0%    { opacity: 1; }
+    80%   { opacity: 1; }
+    85%   { opacity: 0; }
+    90%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
   .header {
     text-align: center;
     display: flex;
@@ -28,10 +52,11 @@
   p {
     color: var(--white);
     filter: drop-shadow(0 1px 3px);
-    margin: 0.4em;
+    margin: 0.2em;
   }
-  .larger {
-    font-size: 1.5em;
+  .welcome {
+    font-size: 2em;
+    animation: fadeIn 10s infinite;
   }
   
   .title {
