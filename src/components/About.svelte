@@ -3,7 +3,7 @@
     <p><span class="info-name">Name:</span>Nicola Toscan</p>
     <p><span class="info-name">From:</span>Italy</p>
     <p><span class="info-name">Age:</span>{ age }</p>
-    <p><span class="info-name">Now in:</span>Pieve del Grappa</p>
+    <p><span class="info-name">Now in:</span>Berlin</p>
 </div>
 <div class="about">
     <div class="picture"></div>
