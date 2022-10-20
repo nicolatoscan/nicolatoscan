@@ -77,7 +77,15 @@
                 <li>Entrepreneurship for Engineers</li>\
                 <li>Business Development Lab of Entrepreneurship Engineers</li>\
                 <li>e-Business Strategies</li>\
-                </ui>\
+                </ul>\
+                <br />\
+                Courses I am currently attending:\
+                <ul>\
+                <li>Database Technology</li>\
+                <li>Big Data Systems Project</li>\
+                <li>Management of Data Streams</li>\
+                <li>Machine Learning for Remote Sensing Data Analysis</li>\
+                </ul>\
                 "
             },
             {
@@ -112,7 +120,7 @@
                 <li>Introduction to Web Programming</li>\
                 <li>Introduction to Mobile Development</li>\
                 <li>Introduction to Machine Learning</li>\
-                </ui>\
+                </ul>\
                 "
             },
         ],
