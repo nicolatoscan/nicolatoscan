@@ -18,7 +18,7 @@
 
   <footer>
     <p>Made with Svelte by Me</p>
-    <p>Last updated September 2022</p>
+    <p>Last updated October 2022</p>
   </footer>
 </div>
 
