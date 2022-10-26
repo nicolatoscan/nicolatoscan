@@ -62,7 +62,7 @@
                 title: "Attending Master's in Data Science",
                 subtitles: [
                     { flag: "Se", name: "KTH", text: ", Stockholm, Sweden | August 2021 - June 2022", url: "https://www.kth.se/" },
-                    { flag: "De", name: "TU Berlin", text: ", Berlin, Germany | October 2022 - Current", url: "https://www.tu-berlin.de/" },
+                    { flag: "De", name: "TU Berlin", text: ", Berlin, Germany | October 2022 - Current", url: "https://www.tu.berlin/" },
                 ],
                 description: "\
                 I am currently attending a joint Master degree in Stockholm and Berlin in Data Science, with a minor in Entrepreneur & Innovation.\
@@ -141,7 +141,7 @@
                 img: "./images/aqrate.webp",
                 title: "Web Developer Internship",
                 subtitles: [
-                    { flag: 'It', name: "Aqrate", text: ", Montebelluna, Italy | Summer of 2016 and 2017" }
+                    { flag: 'It', name: "Aqrate", text: ", Montebelluna, Italy | Summers of 2016 and 2017" }
                 ],
                 description: "Continuous development of multiple restful web apps and APIs used by the company itself or their clients. Developed with Angular, .NET Framework, ASP-NET MVC and Azure authentication services with TypeScript, JavaScript and C#."
             },
