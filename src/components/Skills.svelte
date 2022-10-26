@@ -7,6 +7,9 @@
     <h3>PROGRAMMING LANGUAGES:</h3>
     <p> Typescript, Javascript, Python, C#, C++, Java </p>
 
+    <h3>DATA SCIENCE:</h3>
+    <p> Machine Learning, NN, Transformers, Data Mining </p>
+
     <h3>JS FRAMEWORKS:</h3>
     <p> Vue, React, Angular, Express.js </p>
 
