@@ -14,9 +14,11 @@
             { #if b.subtitles }{#each b.subtitles as s}
                 <div class="subtitle">
                     { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" width="640" height="480"/> { /if }
-                    <h4>{ s.text }</h4>
+                    <h4> 
+                        { #if s.url }<a class="box-url" target="_blank" href="{s.url}">{ s.name }</a>{ :else }{ s.name }{ /if }{ s.text }
+                    </h4>
                 </div>
-            { /each }{ /if }
+                { /each }{ /if }
         </div>
         <div class="box-description">
             <p>{@html b.description }</p>
@@ -32,7 +34,6 @@
 </div>
 
 <script lang="ts">
-    import { text } from 'stream/consumers';
     import { It, Se, De, Es} from "svelte-flag-icons";
     export let type: string;
 
@@ -41,7 +42,7 @@
     type Box = {
         img?: string,
         title: string,
-        subtitles?: {flag?: string, text: string}[],
+        subtitles?: { flag?: string, text: string, name: string, url?: string }[],
         description: string,
         more?: string,
         showMore?: boolean,
@@ -57,11 +58,11 @@
     const infos: { [id: string]: Box[] } = {
         Education: [
             {
-                img: "./images/kth.webp",
+                img: "./images/kthtub.webp",
                 title: "Attending Master's in Data Science",
                 subtitles: [
-                    {flag: "Se", text: "KTH, Stockholm, Sweden | August 2021 - June 2022"},
-                    {flag: "De", text: "TUB, Berlin, Germany | October 2022 - Current"},
+                    { flag: "Se", name: "KTH", text: ", Stockholm, Sweden | August 2021 - June 2022", url: "https://www.kth.se/" },
+                    { flag: "De", name: "TU Berlin", text: ", Berlin, Germany | October 2022 - Current", url: "https://www.tu-berlin.de/" },
                 ],
                 description: "\
                 I am currently attending a joint Master degree in Stockholm and Berlin in Data Science, with a minor in Entrepreneur & Innovation.\
@@ -93,7 +94,7 @@
                 img: "./images/trento.webp",
                 title: "Bachelor's in Computer Science",
                 subtitles: [
-                    { flag: 'It', text: "University of Trento, Trento, Italy | September 2018 - July 2022" }
+                    { flag: 'It', name: "University of Trento", text: ", Trento, Italy | September 2018 - July 2022", url: "https://www.unitn.it/" }
                 ],
                 description: "\
                 I have taken courses in Software Engineering, Data Structures, Algorithms, and Programming and Mathematics.\
@@ -131,7 +132,7 @@
                 img: "./images/wiki.webp",
                 title: "Data Science Internship",
                 subtitles: [
-                    { flag: 'Es', text: "Eurecat, Barcelona, Spain | January - June 2021" }
+                    { flag: 'Es', name: "Eurecat", text: ", Barcelona, Spain | January - June 2021", url: "https://www.eurecat.org/" }
                 ],
                 description: "Analyzing emotions in messages written and received by a user in Wikipedia talk pages over time using Python."
             },
@@ -140,7 +141,7 @@
                 img: "./images/aqrate.webp",
                 title: "Web Developer Internship",
                 subtitles: [
-                    { flag: 'It', text: "Aqrate, Montebelluna, Italy | Summer of 2016 and 2017" }
+                    { flag: 'It', name: "Aqrate", text: ", Montebelluna, Italy | Summer of 2016 and 2017" }
                 ],
                 description: "Continuous development of multiple restful web apps and APIs used by the company itself or their clients. Developed with Angular, .NET Framework, ASP-NET MVC and Azure authentication services with TypeScript, JavaScript and C#."
             },
@@ -150,7 +151,7 @@
                 img: "./images/rennes.webp",
                 title: "Summer School - Solutions for Healthier Digital Cities",
                 subtitles: [
-                    { flag: 'Fr', text: "Université de Rennes 1, Rennes, France | July 2022" }
+                    { flag: 'Fr', name: "Université de Rennes 1", text: ", Rennes, France | July 2022", url: "https://www.univ-rennes1.fr/" }
                 ],
                 description: "Two week summer school in Rennes on the topic of digital solutions for healthier cities organazied by EiT.\
                 Work in teams on challenging cases, with the end goal of creating a start-up solving the problem.\
@@ -160,7 +161,7 @@
                 img: "./images/eagle.webp",
                 title: "Eletric Racing Car Telemetry",
                 subtitles: [
-                    { flag: 'It', text: "Eagle TRT, Trento, Italy | Semptember 2020 - June 2021" }
+                    { flag: 'It', name: "Eagle TRT", text: ", Trento, Italy | Semptember 2020 - June 2021", url: "https://www.eagletrt.it/" }
                 ],
                 description: "Developing a telemetry software using C for an electric formula SAE car, designed and build by the Eagle Trento racing team since September 2020."
             },
@@ -254,6 +255,11 @@
             .box-img {
                 grid-column: 2 / 3;
             }
+        }
+
+        .box-url {
+            color: inherit;
+            text-decoration: underline;
         }
 
     }
