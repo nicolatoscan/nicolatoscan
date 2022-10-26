@@ -85,6 +85,7 @@
                 <li>Big Data Systems Project</li>\
                 <li>Management of Data Streams</li>\
                 <li>Machine Learning for Remote Sensing Data Analysis</li>\
+                <li>Innovation Management and Entrepreneurship Study</li>\
                 </ul>\
                 "
             },
