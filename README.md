@@ -1,105 +1,72 @@
-# CV
+# Welcome to my GitHub profile
 
-My CV WebSite
+[![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fnicolatoscan.github.io%2Fcv%2F)](https://nicolatoscan.github.io/cv/)
+[![GitHub Starts](https://img.shields.io/github/stars/nicolatoscan?label=github&color=181717&logo=github&style=for-the-badge)](https://github.com/nicolatoscan)
+[![Linkedin](https://img.shields.io/badge/linked-in-369?style=for-the-badge&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/nicolatoscan/)
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+## About Me
+I'm a 23 years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.
+I'm passionate about data science and web development.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+## Education
+* Attending Master's degree in Data Science @ KTH (Stockholm, Sweden) & TUB (Berlin, Germany)
+* Bachelor's Degree in Computer Science @ University of Trento
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+## Main Experiences
+* Data Science Internship @ Eurecat, Barcelona, Spain
+* Telemetry for eletric racing car @ Eagle TRT, Trento, Italy
+* Web Developer Internship @ Aqrate, Montebelluna, Italy
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+## Languages I know
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+## Frameworks and technologies I know
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 
-## Single-page app mode
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgressSql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+## Projects
+Some project I worked on
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+### Web
+* [CV](https://github.com/nicolatoscan/cv): My CV website
+* [Rememo](https://github.com/nicolatoscan/rememo-webapp): WebApp with flashcards to learn languages
+* [Monopoly Bank](https://github.com/nicolatoscan/monopoly-bank): Manage a "Credit card Monopoly" game when the card reader breaks
+* [Concorso Presepi](https://github.com/nicolatoscan/concorso-presepi-2020): Vote for the best nativity scene in my Village
+* [Copy Lorem Ipsum](https://github.com/nicolatoscan/copy-lorem-ipsum): By opening this site Lorem Ipsum will be copied in your clipboard
 
-```js
-"start": "sirv public --single"
-```
 
-## Using TypeScript
+### Telegram & Discord Bots
+* [Twitch to MP3](https://github.com/nicolatoscan/twitch-to-mp3-telegram-bot): Get a twitch live as a mp3 podcast on Telegram
+* [Laundry](https://github.com/nicolatoscan/laundry-bot): Check availability and book laundry in a student accomodation
+* [Aurora](https://github.com/nicolatoscan/aurora-bot): Allerts you when the northen lights may be visible
+* [P&S Grades](https://github.com/nicolatoscan/probabilita-statistica-unitn-telegram-bot): Get the latest daily grade of a course at the University of Trento
+* [Discord cinema](https://github.com/nicolatoscan/cinebiscotto-discord-bot): Create a cinema room on Discord and launch a countdown to watch a movie together
+* [Auto Suscriber Exam](https://github.com/nicolatoscan/automatic-suscribe-exam): Automatically suscribes you to the exam you want when a new place is available
+* [Telegram shell controller](https://github.com/nicolatoscan/telegram-shell-controller): Control your shell from your phone
+* [Files bot](https://github.com/nicolatoscan/file-bot): Remotely download a file and upload it to Telegram
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+### Android
+* [Rememo](https://github.com/nicolatoscan/rememo-android-app): Android App with flashcards to learn languages
+* [Frier Timer](https://github.com/nicolatoscan/FrierTimer): Android app to check fring time in two basket friers
 
-```bash
-node scripts/setupTypeScript.js
-```
 
-Or remove the script via:
+### Arduino
+* [Smart lights](https://github.com/nicolatoscan/smart-hub-console-controller): Controll the lights of my house with Arduino
 
-```bash
-rm scripts/setupTypeScript.js
-```
-
-If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+### Data Science & Algorithms
+* [Wikipedia communities](https://github.com/nicolatoscan/wikipedia-communities): Detect wikipedia communities from the interaction graph
+* [Galaxies](https://github.com/nicolatoscan/ml-galaxies): Classify galaxies from their images
+* [Wikipedia emotions](https://github.com/nicolatoscan/wiki-emo-dp): Analysis of wikipedia emotions
+* [Masyu](https://github.com/nicolatoscan/SWRace-JeffWho): Our proposal to solve the Masyu puzzle, a NP problem
