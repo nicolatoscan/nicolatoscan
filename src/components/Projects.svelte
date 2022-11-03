@@ -27,7 +27,7 @@
     type Project = { name: string, description: string, link: string }
     const projects: { name: string, projects: Project[] }[] = [
         { name: "Web", projects: [
-            { name: "CV",               link: "https://github.com/nicolatoscan/cv",                     description: "This website" },
+            { name: "CV",               link: "https://github.com/nicolatoscan/nicolatoscan",           description: "This website" },
             { name: "Rememo",           link: "https://github.com/nicolatoscan/rememo-webapp",          description: "WebApp with flashcards to learn languages" },
             { name: "Monopoly Bank",    link: "https://github.com/nicolatoscan/monopoly-bank",          description: "Manage a \"Credit card Monopoly\" game when the card reader breaks" },
             { name: "Concorso Presepi", link: "https://github.com/nicolatoscan/concorso-presepi-2020",  description: "Vote for the best nativity scene in my Village" },

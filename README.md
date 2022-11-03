@@ -40,7 +40,7 @@ I'm passionate about data science and web development.
 Some project I worked on
 
 ### Web
-* [CV](https://github.com/nicolatoscan/cv): My CV website
+* [CV](https://github.com/nicolatoscan/nicolatoscan): My CV website
 * [Rememo](https://github.com/nicolatoscan/rememo-webapp): WebApp with flashcards to learn languages
 * [Monopoly Bank](https://github.com/nicolatoscan/monopoly-bank): Manage a "Credit card Monopoly" game when the card reader breaks
 * [Concorso Presepi](https://github.com/nicolatoscan/concorso-presepi-2020): Vote for the best nativity scene in my Village
