@@ -1,6 +1,6 @@
 # Welcome to my GitHub profile
 
-[![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fnicolatoscan.github.io%2Fcv%2F)](https://toscan.dev)
+[![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Ftoscan.dev)](https://toscan.dev)
 [![GitHub Starts](https://img.shields.io/github/stars/nicolatoscan?label=github&color=181717&logo=github&style=for-the-badge)](https://github.com/nicolatoscan)
 [![Linkedin](https://img.shields.io/badge/linked-in-369?style=for-the-badge&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/nicolatoscan/)
 
