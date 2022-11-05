@@ -17,13 +17,13 @@
     <p> .NET, Android Studio </p>
 
     <h3>DATABASES:</h3>
-    <p> Postgtres, MongoDB </p>
+    <p> Postgres, MongoDB </p>
 
     <h3>IT SOFTWARES:</h3>
     <p> Linux, Git, Docker </p>
 
     <h3>CLOUD INFRASTRUCTURE:</h3>
-    <p> Google Cloud, Azure, Aws, Heroku </p>
+    <p> Google Cloud, Azure, AWS, Heroku </p>
 
     <h3>OTHER SOFTWARES:</h3>
     <p> Office suite, Photoshop, Premiere Pro </p>

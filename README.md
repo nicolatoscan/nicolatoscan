@@ -63,10 +63,11 @@ Some project I worked on
 
 
 ### Arduino
-* [Smart lights](https://github.com/nicolatoscan/smart-hub-console-controller): Controll the lights of my house with Arduino
+* [Smart lights](https://github.com/nicolatoscan/smart-hub-console-controller): Control the lights of my house with Arduino
 
 ### Data Science & Algorithms
 * [Wikipedia communities](https://github.com/nicolatoscan/wikipedia-communities): Detect wikipedia communities from the interaction graph
+* [Movie reviews summary](https://github.com/nicolatoscan/movies-reviews-summary): Summarize positives and negatives reviews of a movie
 * [Galaxies](https://github.com/nicolatoscan/ml-galaxies): Classify galaxies from their images
 * [Wikipedia emotions](https://github.com/nicolatoscan/wiki-emo-dp): Analysis of wikipedia emotions
 * [Masyu](https://github.com/nicolatoscan/SWRace-JeffWho): Our proposal to solve the Masyu puzzle, a NP problem

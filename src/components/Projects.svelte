@@ -48,10 +48,11 @@
             { name: "Frier Timer",  link: "https://github.com/nicolatoscan/FrierTimer",         description: "Android app to check fring time in two basket friers" },
         ] },
         { name: "Arduino", projects: [
-            { name: "Smart lights", link: "https://github.com/nicolatoscan/smart-hub-console-controller",   description: "Controll the lights of my house with Arduino" },
+            { name: "Smart lights", link: "https://github.com/nicolatoscan/smart-hub-console-controller",   description: "Control the lights of my house with Arduino" },
         ] },
         { name: "Data Science & Algorithms", projects: [
             { name: "Wikipedia communities", link: "https://github.com/nicolatoscan/wikipedia-communities", description: "Detect wikipedia communities from the interaction graph" },
+            { name: "Movie reviews summary", link: "https://github.com/nicolatoscan/movies-reviews-summary",description: "Summarize positives and negatives reviews of a movie" },
             { name: "Galaxies",              link: "https://github.com/nicolatoscan/ml-galaxies",           description: "Classify galaxies from their images" },
             { name: "Wikipedia emotions",    link: "https://github.com/nicolatoscan/wiki-emo-dp",           description: "Analysis of wikipedia emotions" },
             { name: "Masyu",                 link: "https://github.com/nicolatoscan/SWRace-JeffWho",        description: "Our proposal to solve the Masyu puzzle, a NP problem" },
