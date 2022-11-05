@@ -252,6 +252,8 @@
         }
         
         &.flipped {
+            grid-template-columns: 1fr auto;
+
             .box-img {
                 grid-column: 2 / 3;
             }
