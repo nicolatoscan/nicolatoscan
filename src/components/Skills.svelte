@@ -11,7 +11,7 @@
     <p> Machine Learning, NN, Transformers, Data Mining </p>
 
     <h3>JS FRAMEWORKS:</h3>
-    <p> Vue, React, Angular, Express.js </p>
+    <p> Vue, React, Angular, Svelte, Express.js </p>
 
     <h3>DESKTOP & MOBILE:</h3>
     <p> .NET, Android Studio </p>
