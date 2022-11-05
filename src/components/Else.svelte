@@ -7,7 +7,7 @@
                 <li>Google HashCode (2019 and 2020)</li>
                 <li>Reply Code challenge (2020)</li>
                 <li>“Code vs Covid19” online (2020) - WebApp to track Covid19 in Vue.js</li>
-                <li>“NOI Hackathon” in Bolzano (2019) - Alexa voice recognition skill - 1st position</li>
+                <li>“NOI Hackathon” in Bolzano (2019) - Alexa voice recognition skill - 1<sup>st</sup> position</li>
                 <li>"hack.developers" in Venice (2017) - Angular Component for Italian public administration</li>
             </ul>
         </div>
