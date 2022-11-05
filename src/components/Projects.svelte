@@ -56,6 +56,7 @@
             { name: "Galaxies",              link: "https://github.com/nicolatoscan/ml-galaxies",           description: "Classify galaxies from their images" },
             { name: "Wikipedia emotions",    link: "https://github.com/nicolatoscan/wiki-emo-dp",           description: "Analysis of wikipedia emotions" },
             { name: "Masyu",                 link: "https://github.com/nicolatoscan/SWRace-JeffWho",        description: "Our proposal to solve the Masyu puzzle, a NP problem" },
+            { name: "Bachelor's thesis",      link: "https://github.com/nicolatoscan/thesis",                description: "Analysis of emotions in Wikipedia discussions" },
         ] },
     ] 
 

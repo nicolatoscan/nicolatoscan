@@ -71,3 +71,4 @@ Some project I worked on
 * [Galaxies](https://github.com/nicolatoscan/ml-galaxies): Classify galaxies from their images
 * [Wikipedia emotions](https://github.com/nicolatoscan/wiki-emo-dp): Analysis of wikipedia emotions
 * [Masyu](https://github.com/nicolatoscan/SWRace-JeffWho): Our proposal to solve the Masyu puzzle, a NP problem
+* [Bachelor's thesis](https://github.com/nicolatoscan/thesis): Analysis of emotions in Wikipedia discussions
