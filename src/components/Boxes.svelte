@@ -15,7 +15,7 @@
                 <div class="subtitle">
                     { #if s.flag } <img loading="lazy" src="./images/flags/{s.flag.toLowerCase()}.svg" alt="flag" class="flag" width="640" height="480"/> { /if }
                     <h4> 
-                        { #if s.url }<a class="box-url" target="_blank" href="{s.url}">{ s.name }</a>{ :else }{ s.name }{ /if }{ s.text }
+                        { #if s.url }<a class="box-url" target="_blank" href="{s.url}" rel="noreferrer">{ s.name }</a>{ :else }{ s.name }{ /if }{ s.text }
                     </h4>
                 </div>
                 { /each }{ /if }
