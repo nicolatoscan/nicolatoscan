@@ -5,12 +5,12 @@
 [![Linkedin](https://img.shields.io/badge/linked-in-369?style=for-the-badge&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/nicolatoscan/)
 
 ## About Me
-I'm a 23 years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.
+I'm an Italian student, currently attending a Masters Degree in Data Science at KTH and TU Berlin.
 I'm passionate about data science and web development.
 
 ## Education
-* Attending Master's degree in Data Science @ KTH (Stockholm, Sweden) & TUB (Berlin, Germany)
-* Bachelor's Degree in Computer Science @ University of Trento
+* Attending Master's degree in Data Science @ KTH, Sweden & TU Berlin, Germany
+* Bachelor's Degree in Computer Science @ University of Trento, Italy
 
 ## Main Experiences
 * Data Science Internship @ Eurecat, Barcelona, Spain

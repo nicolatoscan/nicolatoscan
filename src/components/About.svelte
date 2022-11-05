@@ -8,15 +8,15 @@
 <div class="about">
     <div class="picture"></div>
     <p>
-        I'm a { age } years old Italian student, currently attending a Masters Degree in Data Science at KTH Royal Institute of Technology and TU Berlin.<br />
-        I'm passionate about data science and web development.
+        Hi, I'm an Italian student attending a Master's Degree in Data Science at KTH and TU Berlin.<br />
+        I'm passionate about data science and web development. <br />
     </p>
 </div>
 <div class="urls">
-    <a href="https://www.github.com/nicolatoscan/"      aria-label="GitHub"   class="themed-icon" target="_blank"><Github   size='48' /> </a>
-    <a href="https://www.linkedin.com/in/nicolatoscan/" aria-label="LinkedIn" class="themed-icon" target="_blank"><Linkedin size='48' /> </a>
-    <a href="mailto:me@toscan.dev"                      aria-label="Email"    class="themed-icon" target="_blank"><Email    size='48' /> </a>
-    <a href="https://www.t.me/nicolatoscan/"            aria-label="Telegram" class="themed-icon" target="_blank"><Telegram size='48' /> </a>
+    <a href="https://www.github.com/nicolatoscan/"      aria-label="GitHub"   class="themed-icon" target="_blank"  rel="noreferrer"><Github   size='48' /> </a>
+    <a href="https://www.linkedin.com/in/nicolatoscan/" aria-label="LinkedIn" class="themed-icon" target="_blank"  rel="noreferrer"><Linkedin size='48' /> </a>
+    <a href="mailto:me@toscan.dev"                      aria-label="Email"    class="themed-icon"                                  ><Email    size='48' /> </a>
+    <a href="https://www.t.me/nicolatoscan/"            aria-label="Telegram" class="themed-icon" target="_blank"  rel="noreferrer"><Telegram size='48' /> </a>
 </div>
 <div class="download-as-pdf">
     <a href="./files/NicolaToscan_CV.pdf" target="_blank">

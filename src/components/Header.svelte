@@ -7,7 +7,7 @@
 </div>
 
 <script lang="ts">
-  const welcomes = [ "Welcome!", "Benvenuto!", "Willkommen!", "Välkommen!", "Bienvenue!", "¡Bienvenidas!" ]
+  const welcomes = [ "Hi!", "Ciao!", "Hallo!", "Hej!", "Salut!", "¡Hola!" ]
   let wIndex = 0;
   let welcome = welcomes[wIndex];
 
