@@ -222,7 +222,7 @@
         border-bottom: 1px solid var(--theme);
 
         @media screen and (max-width: 800px) {
-            grid-template-columns: auto;
+            grid-template-columns: auto !important;
             grid-template-rows: auto auto;
             column-gap: 0;
             padding: 1em;
