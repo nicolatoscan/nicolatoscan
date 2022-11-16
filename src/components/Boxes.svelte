@@ -97,7 +97,7 @@
                     { flag: 'It', name: "University of Trento", text: ", Trento, Italy | September 2018 - July 2022", url: "https://www.unitn.it/" }
                 ],
                 description: "\
-                I have taken courses in Software Engineering, Data Structures, Algorithms, and Programming and Mathematics.\
+                I have taken courses in Software Engineering, Data Structures, Algorithms, Programming and Mathematics.\
                 I graduated with the highest grade of 110 cum laude in July 2022",
                 showMore: false,
                 more: "The complete list of courses I have taken:\
