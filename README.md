@@ -48,6 +48,7 @@ Some project I worked on
 
 
 ### Telegram & Discord Bots
+* [BibTex Bot](https://github.com/nicolatoscan/bibtex-bot): Search for a paper and get its bibtex on Telegram
 * [Twitch to MP3](https://github.com/nicolatoscan/twitch-to-mp3-telegram-bot): Get a twitch live as a mp3 podcast on Telegram
 * [Laundry](https://github.com/nicolatoscan/laundry-bot): Check availability and book laundry in a student accomodation
 * [Aurora](https://github.com/nicolatoscan/aurora-bot): Allerts you when the northen lights may be visible

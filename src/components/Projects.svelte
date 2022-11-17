@@ -34,6 +34,7 @@
             { name: "Copy Lorem Ipsum", link: "https://github.com/nicolatoscan/copy-lorem-ipsum",       description: "By opening this site Lorem Ipsum will be copied in your clipboard" },
         ] },
         { name: "Telegram & Discord Bots", projects: [
+            { name: "BibTex Bot",                   link: "https://github.com/nicolatoscan/bibtex-bot",                                 description: "Search for a paper and get its bibtex on Telegram" },
             { name: "Twitch to MP3",                link: "https://github.com/nicolatoscan/twitch-to-mp3-telegram-bot",                 description: "Get a twitch live as a mp3 podcast on Telegram" },
             { name: "Laundry",                      link: "https://github.com/nicolatoscan/laundry-bot",                                description: "Check availability and book laundry in a student accomodation" },
             { name: "Aurora",                       link: "https://github.com/nicolatoscan/aurora-bot",                                 description: "Allerts you when the northen lights may be visible" },
