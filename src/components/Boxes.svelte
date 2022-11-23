@@ -65,7 +65,7 @@
                     { flag: "De", name: "TU Berlin", text: ", Berlin, Germany | October 2022 - Current", url: "https://www.tu.berlin/" },
                 ],
                 description: "\
-                I am currently attending a joint Master degree in Stockholm and Berlin in Data Science, with a minor in Entrepreneur & Innovation.\
+                I am currently attending a joint Master degree in Stockholm and Berlin in Data Science, with a minor in Entrepreneurship & Innovation.\
                 I spent the first year in Stockholm and I will spend the second year in Berlin.",
                 showMore: false,
                 more: "The complete list of courses I have taken:\
