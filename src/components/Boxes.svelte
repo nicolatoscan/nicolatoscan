@@ -129,6 +129,15 @@
         Experience: [
             {
                 flipped: true,
+                img: "./images/Deloitte.webp",
+                title: "Analyst Internship",
+                subtitles: [
+                    { flag: 'It', name: "Deloitte", text: ", Treviso, Italy | May 2023 - now", url: "https://www.deloitte.com/" }
+                ],
+                description: "Microsoft Power Platform reports and Azure Data Factory pipelines"
+            },
+            {
+                flipped: true,
                 img: "./images/wiki.webp",
                 title: "Data Science Internship",
                 subtitles: [
