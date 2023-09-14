@@ -177,11 +177,7 @@
             {
                 img: "./images/webapp.webp",
                 title: "Web Apps as management software",
-                description: "Developed the following two management software applications as web apps using Vue, Node.js, MongoDB and SQL databases:<br />\
-                <ul>\
-                <li>Management software for the accomodation offered by the University of Trento through Opera.</li>\
-                <li>Management software to catalogued books of the libraries of Bolzano through librilib(e)ri.</li>\
-                </ui>"
+                description: "Developed management software applications as web apps using Vue, Node.js, MongoDB and SQL databases and two websites to for local companies with php."
             },
             // {
             //     // img: "./images/fal.webp",
